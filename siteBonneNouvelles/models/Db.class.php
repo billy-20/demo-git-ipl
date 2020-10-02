@@ -23,7 +23,7 @@ class Db
 				{
 					$connectstr_dbhost = '';
 					$connectstr_dbname = '';
-					$connectstr_dbusername = '';
+					$connectstr_dbusername = 'root';
 					$connectstr_dbpassword = '';
 			
 					foreach ($_SERVER as $key => $value) {
